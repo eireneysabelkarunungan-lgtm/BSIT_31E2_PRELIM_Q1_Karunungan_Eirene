@@ -16,10 +16,7 @@ public static class TransportResolver
         {
             return new Airplane();
         }
-        else if (input == "helicopter") 
-        {
-            return new Helicopter();
-        }
+    
         else
         {
             return null;
